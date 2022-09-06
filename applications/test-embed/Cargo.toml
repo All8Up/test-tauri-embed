@@ -1,0 +1,11 @@
+[package]
+name = "test-embed"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ui = { path = "./../../crates/ui", optional = true }
+
+[features]
+default = []
+with-ui = ["ui"]

@@ -1,0 +1,4 @@
+# Workspace.
+[workspace]
+resolver = "2"
+members = ["applications/*", "crates/*"]
